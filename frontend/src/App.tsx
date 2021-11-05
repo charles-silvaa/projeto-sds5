@@ -1,8 +1,8 @@
 import NavBar from "components/NavBar";
-import Footer from "components/Footer";
 import DataTable from "components/DataTable";
 import BarChart from "components/BarChart";
 import DonutChart from "components/DonutChart";
+import Footer from "components/Footer";
 
 function App() {
   return (
@@ -28,8 +28,7 @@ function App() {
 
       <DataTable />
     </div>
-    <Footer />
-    </>
+    <Footer />    </>
   );
 }
 
